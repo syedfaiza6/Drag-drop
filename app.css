@@ -1,0 +1,51 @@
+.example-parent {
+  border: 2px solid #bb7ac5;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.example-origin {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.example-draggable {
+  background-color: #7a4989;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.example-dropzone {
+  background-color: #b5a2e7;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+button {
+  margin:10px ;
+  background-color: #4CAF50; 
+  border-radius: 0.5rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.5sec;
+}
+button:hover{
+
+    background-color:#002ead;
+    transition: 0.7s;
+}
