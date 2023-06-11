@@ -21,10 +21,10 @@ function resetContainers() {
   const dropzone = document.querySelector('.example-dropzone');
   
   const originalItems = [
-    '<div id="draggable-1" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">thing 1</div>',
-    '<div id="draggable-2" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">thing 2</div>',
-    '<div id="draggable-3" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">thing 3</div>',
-    '<div id="draggable-4" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">thing 4</div>'
+    '<div id="draggable-1" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">Panda</div>',
+    '<div id="draggable-2" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">Cat</div>',
+    '<div id="draggable-3" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">Dog</div>',
+    '<div id="draggable-4" class="example-draggable" draggable="true" ondragstart="onDragStart(event);">Penguin</div>'
   ];
   
   originContainer.innerHTML = originalItems.join('');
